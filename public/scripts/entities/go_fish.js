@@ -19,6 +19,23 @@ class GoFish extends Fish {
 
 
   onClick(event) {
+    console.log(this.constructor.name)
     this.surgeSecondsLeft = this.maxSurge;
   }
+
+  // update(t) {
+  //   // if you're out of bounds, despawn
+  //   if (this.outOfBounds(this.tank.getBounds())) {
+  //     this.kill();
+  //   }
+  //   //if
+
+  //   else if() {
+
+  //   } else {
+  //     for (var i = 0; i < this.calcPhysicsTicks(t); i++) {
+  //       this.updateOneTick();
+  //     }
+  //   }
+  // }
 }

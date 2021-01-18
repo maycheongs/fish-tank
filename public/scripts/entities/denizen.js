@@ -52,6 +52,7 @@ class Denizen {
   }
 
   onClick(event) {
+    
     throw "not implemented";
   }
 
